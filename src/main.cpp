@@ -21,7 +21,7 @@ vector<int> inputPrices()
 vector<vector<int>> loadFromFile()
 {
     vector<vector<int>> datasets;
-    FILE *fp = fopen("prices.txt", "r");
+    FILE *fp = fopen("price.txt", "r");
 
     if (fp == NULL)
     {
